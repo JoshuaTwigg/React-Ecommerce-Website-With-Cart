@@ -1,0 +1,397 @@
+.App {
+  text-align: center;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;1,300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,900&family=Playfair+Display&display=swap');
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+:root{
+  
+  --grey:   #2e2e4f;
+  --pink:   #b379cf;
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.butt{
+  background-color: red;
+}
+
+
+.text{
+  color: orange;
+}
+
+.divey{
+  background-color: #61dafb;
+}
+
+body{
+
+  margin: 0;
+  background-color: white !important;
+  font-family: 'Playfair Display',serif !important;
+  overflow-x: hidden;
+}
+
+body{
+
+  background-color: none;
+}
+
+
+
+.mainDiv{
+  /* background-color: var(--purple); */
+  width:100%;
+  height:700px;
+  position: relative;
+  background-color: white;
+  /* background: linear-gradient(270deg,#691ed2 50%  ,#b379cf); */
+
+  
+}
+
+
+.mainHeading{
+  margin-top: 100px;
+}
+.mainText{
+  margin-top: 150px;
+}
+  
+
+.chatLogo{
+  width:100px;
+  height:100px;
+  margin-left: 800px;
+  margin-top: 150px;
+}
+
+.hand{
+  width:300px;
+  height:300px;
+  margin-left: 400px;
+
+}
+
+.mainButton{
+  background-color: var(--pink) !important;
+  border-radius: 150px !important;
+  width:150px;
+  height:50px;
+  border-style: none;
+  margin-left: 0px;
+  margin-top: 50px;
+  transition: all 0.5s ease !important;
+  
+  
+}
+
+.mainButton:hover{
+  background-color: #282c34 !important;
+  scale: 1.1;
+  transition: all 0.5s ease !important;
+}
+
+.carder{
+
+  margin-top: 50px;
+  border-radius: 50px 150px 40px 150px!important;
+  border-width: none;
+ position: relative;
+
+  
+}
+
+.mainCard{
+  /* background: linear-gradient(to bottom right, #691ed2 ,#b379cf); */
+  height:500px;
+  border-radius: 50px 150px 40px 150px!important;
+  position: relative;
+ 
+}
+
+
+
+.character{
+  position: absolute;
+  width:300px;
+  height:300px;
+
+  margin-left: -700px;
+  margin-top: 1250px;
+}
+
+.wave{
+  margin-top: 500px;
+  height:2500px;
+  width:1500px;
+  opacity: 0.3;
+}
+
+.sectionOne{
+  background: linear-gradient(to bottom right, #8975ef 50%, #dd7878 20%);
+  width:100%;
+  height:800px;
+  margin-top: 150px;
+  
+}
+
+.x{
+  position: relative;
+}
+
+.blob{
+  background-image: url("images/bloob.svg");
+  position:absolute;
+  opacity: 0.4;
+  height:100vh;
+  width:1320px;
+  margin-left:400px;
+  margin-bottom: -400px;
+  margin-top: -1350px;
+  background-repeat: no-repeat;
+}
+
+.blobTwo{
+  background-image: url("images/bloob2.svg");
+  position:absolute;
+  opacity: 0.4;
+  height:100vh;
+  width:220px;
+  margin-right: 600px;
+  margin-top: -1250px;
+  background-repeat: no-repeat;
+}
+
+.blobThree{
+  background-image: url("images/bloob2.svg");
+  position:absolute;
+  opacity: 0.4;
+  height:100vh;
+  width:420px;
+  margin-right: 600px;
+  margin-top: -1250px;
+  background-repeat: no-repeat;
+}
+
+
+.containerDivStore{
+  /* background: linear-gradient(to left top, #691ed2 50%, #2e2e4f 20%); */
+  background: linear-gradient(to bottom right, #dd7878 50%, #8975ef 20%);
+  margin-bottom: 100px;
+  margin-top: 0px;
+  padding-top: 300px;
+}
+
+
+
+.storeCardItself{
+  border-radius: 50px !important;
+  margin-bottom: 100px;
+}
+
+.storeBodies{
+  height:320px;
+  border-radius: 150px !important;
+  transition: all 0.5s ease-in-out !important;
+  
+}
+
+.storeCardItself:hover{
+  scale: 1.05;
+  transition: all 0.5s ease-in-out !important;
+}
+
+
+.sectionOne{
+  text-align: center;
+  color: white;
+}
+
+.lineOne{
+  width:100%;
+  height:10px;
+  background-color: white;
+}
+
+.innerDiv{
+  padding-top: 150px;
+  font-size: xx-large;
+}
+
+.containerDiv{
+  text-align: center;
+}
+
+.heading{
+  color: white;
+}
+
+.mainImage{
+  width:100%;
+  height:100%;
+
+}
+
+.secTwoLeft2{
+  background: linear-gradient(to bottom right, #691ed2 ,#b379cf);
+}
+
+.cartCard{
+  text-align: center;
+  margin: 0 auto;
+  width:800px;
+  height:1px;
+  margin-top: 100px;
+}
+
+.cartCardItself{
+  height:123500px;
+}
+
+.cardImage{
+  width:100% !important;
+  height:100% !important;
+  
+}
+
+
+
+.TEST{
+  width:100%;
+  height:100%;
+}
+
+.btn-primary {
+   --bs-btn-color: black !important; 
+   --bs-btn-bg: none !important; 
+  --bs-btn-border-color: none !important;
+  
+  --bs-btn-hover-bg: rgb(58, 58, 58) !important;
+  --bs-btn-active-bg: #691ed2 !important;
+ }
+
+.tit{
+  width:100% !important;
+  display:grid !important;
+  grid-template-columns: repeat(3,1fr) !important;
+  justify-items: center !important;
+  padding:10px !important;
+  margin-top: 150px;
+  ;
+}
+
+.grider{
+  display:flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  margin: 20px 0 !important;
+ 
+}
+
+.mapCard{
+  border-radius: 20px !important;
+  transition: all 0.5s ease-in-out !important;
+  text-align: center;
+
+}
+
+.mapCard:hover{
+  scale: 1.05;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.booton{
+  background-color: #8975ef !important;
+}
+
+.carterImage{
+  width:50px !important;
+  height:50px !important;
+}
+
+.butt1{
+  display: block;
+}
+
+.butt2{
+  display: block;
+  padding-top: 20px;
+}
+
+.butt3{
+  display: block;
+}
+
+.price{
+  padding-top: 20px;
+  color: rgb(151, 20, 20);
+}
+
+@media only screen and (max-width: 1000px) {
+  .character{
+  position: absolute;
+  width:300px;
+  height:300px;
+
+  margin-left: -470px;
+  margin-top: 1250px;
+}
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .character{
+  position: absolute;
+  width:300px;
+  height:300px;
+
+  margin-left: -370px;
+  margin-top: 1250px;
+}
+
+  
+}

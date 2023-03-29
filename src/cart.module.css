@@ -1,0 +1,124 @@
+
+  .cartCardMain{
+    border-color: #691ed2;
+    width:90%;
+    height:580px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* background: linear-gradient(to bottom right, #8975ef 50%, #dd7878 20%); */
+    border-radius: none !important;
+    /* margin-bottom: 350px; */
+  }
+  
+  .cartCardItself{
+    border-color: #691ed2;
+  }
+
+  .c{
+    border-color: #691ed2;
+    height:275px;
+  
+  
+
+  }
+
+  .cardItem{
+    height:550px;
+    border-color: #b379cf;
+
+  }
+
+  .itemDiv{
+    display: inline-block !important;
+
+  }
+
+  .line{
+   
+    height:1px;
+    background-color: #691ed2;
+    width:400px;
+    
+
+  }
+
+  .outerDiv{
+    /* background: linear-gradient(to bottom right, #8975ef 50%, #dd7878 20%); */
+    position: relative;
+   
+  }
+
+  .blobberOne{
+    /* background-image: url("images/bloob2.svg"); */
+    background-image: url("images/boobTwo.svg");
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -200px;
+    width:1000px;
+    height:850px;
+   
+ 
+    opacity: .7;
+    z-index: -100;
+  }
+
+
+  .blobberTwo{
+    /* background-image: url("images/bloob.svg"); */
+    background-image: url("images/boobOne.svg");
+    position: absolute;
+    margin-left: 0px;
+    width:1000px;
+    height:850px;
+    opacity: .7;
+    
+
+ 
+  
+  }
+
+  .blobberTwoTwo{
+    /* background-image: url("images/bloob.svg"); */
+    background-image: url("images/boobOne.svg");
+    position: absolute;
+    margin-left: -100px;
+    width:400px;
+    height:350px;
+    opacity: .6;
+    transform: rotate(120deg);
+ 
+  
+  }
+
+
+  
+
+  .itemDivPlus{
+    display: inline-block !important;
+    padding-right: 50px;
+    background-color: none;
+    border-radius: 0px;
+    border-style: none;
+  }
+
+  .itemDivMinus{
+    display: inline-block !important;
+    padding-left: 50px;
+    
+  }
+
+  .itemImage{
+    width:200px;
+    height:10%;
+    display: block;
+    margin-left: 100px;
+  }
+
+
+  .btn-primary {
+    --bs-btn-color:black !important;
+    --bs-btn-bg:none !important;
+    --bs-btn-border-color:none !important;
+     --bs-btn-hover-color: none!important;
+  }
